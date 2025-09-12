@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 126, 251);
+    height: 15vh;
+    color: aliceblue;
+
+}
+
+h1{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 25px 65px;
+
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 5vw;
+    width: 5vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    gap: 90px;
+}
+
+.fotos{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    width: 20vw;
+    height: 50vh;
+    box-shadow: 5px 5px 10px rgb(0, 126, 251);
+    gap: 80px;
+    
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+    border-radius:50%;
+    object-fit: cover;
+}
+p{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 65px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 126, 251);
+    font-weight: 700;
+
+}
